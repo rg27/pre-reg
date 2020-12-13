@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.backImage{
+ 
+    background-image: url(./images/header.png);
+    background-size: cover;
+      height: 100vh;
+
+ 
+}
+
+.feedbutton {
+  padding: 10px;
+  border: none;
+  background-color: rgb(2, 2, 110);
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  margin-top: 10px;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
