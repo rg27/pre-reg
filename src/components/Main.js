@@ -50,20 +50,11 @@ const handleSubmit = async (e) => {
 }
 
 return (
-//   <Card>
-//     <CardBody>
-    <div class="container pt-20 md:pt-30 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-         <div class="flex flex-col w-full xl:w-2/5 justify-center lg:items-start overflow-y-hidden">
-           <h5 class="my-1 mb-2 text-2xl md:text-3xl text-white opacity-75 font-bold leading-tight text-center md:text-left">
-             Pre
-             <span class="bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-pink-500 to-purple-500">
-               -Registration Form
-             </span>
-               
-           </h5>
-        <Form class="bg-gray-900 opacity-75 w-full shadow-lg rounded-lg px-10 pt-2 pb-2 mb-1" onSubmit={handleSubmit}>
-            <div class="mb-1">
-                <label class="block text-blue-300 py-2 font-bold mb-1" for="name">
+
+    <div class="container pt-0 md:pt-2 mx-auto flex flex-wrap flex-col md:flex-row items-center grid grid-cols-3 gap-4">
+        <Form class="bg-gray-900  w-full shadow-lg rounded-lg px-10 pt-2 pb-2 mb-0" onSubmit={handleSubmit}>
+            <div class="mb-0">
+                <label class="block text-blue-300 py-1 font-bold mb-0" for="name">
                     Name 
                 </label>
                 <FormGroup >
@@ -81,8 +72,8 @@ return (
                 </FormGroup>
             </div>
 
-            <div class="mb-1">
-                <label class="block text-blue-300 py-2 font-bold mb-1" for="emailaddress">
+            <div class="mb-0">
+                <label class="block text-blue-300 py-1 font-bold mb-0" for="emailaddress">
                     Email 
                 </label>
                 <FormGroup>
@@ -100,8 +91,8 @@ return (
                 </FormGroup>
             </div>
 
-            <div class="mb-1">
-                <label class="block text-blue-300 py-2 font-bold mb-1" for="employeeID">
+            <div class="mb-0">
+                <label class="block text-blue-300 py-1 font-bold mb-0" for="employeeID">
                     Employee ID
                 </label>  
 
@@ -120,8 +111,8 @@ return (
                 </FormGroup>
             </div>
 
-            <div class="mb-1">
-                <label class="block text-blue-300 py-2 font-bold mb-1" for="account">
+            <div class="mb-0">
+                <label class="block text-blue-300 py-1 font-bold mb-0" for="account">
                     Account 
                 </label>  
 
@@ -171,8 +162,8 @@ return (
             </div>
 
         
-            <div class="mb-1">
-                <label class="block text-blue-300 py-2 font-bold mb-1" for="going">
+            <div class="mb-0">
+                <label class="block text-blue-300 py-1 font-bold mb-0" for="going">
                     Going? 
                 </label>  
                 <FormGroup>
@@ -199,13 +190,15 @@ return (
             <Button className="feedbutton">Submit</Button>
         </div>
       </Form>
-      </div>
-        <div class="w-full xl:w-3/5 p-4 ">
-          <img class="mx-auto  md:w-5/5 transform -rotate-6 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6 h-96"  src={macbook} />
+   
+        <div class="w-full xl:w-5/5 p-1 col-span-2">
+          <img 
+          class="mx-auto  md:w-5/5 transform -rotate-2 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6 h-80"  
+          src={macbook} 
+          />
         </div>
     </div>
-//     </CardBody>
-//   </Card>
+
   );
 };
 
