@@ -17,9 +17,8 @@ code {
     background-image: url(./images/header.png);
     background-size: cover;
       height: 100vh;
-
- 
 }
+
 
 .feedbutton {
   padding: 10px;
@@ -34,6 +33,10 @@ code {
   margin-top: 10px;
 }
 
+.unclickable{
+  display: inline-block;
+  pointer-events: none;
+}
 
 @tailwind base;
 @tailwind components;
