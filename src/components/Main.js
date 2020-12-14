@@ -58,12 +58,12 @@ return (
                     Name 
                 </label>
                 <FormGroup >
-                <div  class="shadow appearance-none border rounded w-full p-3 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out">
-                    <Input 
+                <div  class="shadow appearance-none border rounded w-full p-1 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out">
+                    <input 
                     required="true"
                     type="text" 
                     name="name" 
-                    class="shadow appearance-none border rounded w-full p-3 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
+                    class="shadow appearance-none border rounded w-full p-1 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
                     placeholder="Full Name"
                     value={name}
                     onChange={handleChange} 
@@ -77,10 +77,10 @@ return (
                     Email 
                 </label>
                 <FormGroup>
-                <div  class="shadow appearance-none border rounded w-full p-3 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out">
-                    <Input 
+                <div  class="shadow appearance-none border rounded w-full p-1 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out">
+                    <input 
                         required="true"
-                        class="shadow appearance-none border rounded w-full p-3 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
+                        class="shadow appearance-none border rounded w-full p-1 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
                         type="text" 
                         name="emailaddress" 
                         placeholder="Company Email"
@@ -97,10 +97,10 @@ return (
                 </label>  
 
                 <FormGroup>
-                <div  class="shadow appearance-none border rounded w-full p-3 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out">
-                    <Input
+                <div  class="shadow appearance-none border rounded w-full p-1 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out">
+                    <input
                     required="true"
-                    class="shadow appearance-none border rounded w-full p-3 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
+                    class="shadow appearance-none border rounded w-full p-1 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
                     type="text" 
                     name="employeeID" 
                     placeholder="Employee ID"
@@ -117,15 +117,15 @@ return (
                 </label>  
 
                 <FormGroup>
-                <div  class="shadow appearance-none border rounded w-full p-3 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out">
-                    <Input 
+                <div  class="shadow appearance-none border rounded w-full p-1 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out">
+                    <select 
                         type='select' 
                         required="true"  
                         value={account}   
                         onChange={handleChange}   
                         name="account" 
                         id="exampleAccount"
-                        class="shadow appearance-none border rounded w-full p-3 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
+                        class="shadow appearance-none border rounded w-full p-1 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
                     >
                     <option  value=" ">--Choose Account--</option>
                     <option value="ADMIN">ADMIN</option>
@@ -156,7 +156,7 @@ return (
                     <option value="WFXMN">WFXMN</option>
                     <option value="XMT">XMT</option>
                     <option value="Others">Others</option>
-                    </Input>
+                    </select>
                 </div>
                 </FormGroup>
             </div>
@@ -167,10 +167,10 @@ return (
                     Going? 
                 </label>  
                 <FormGroup>
-                <div  class="shadow appearance-none border rounded w-full p-3 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out">
-                <Input 
+                <div  class="shadow appearance-none border rounded w-full p-1 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out">
+                <select 
                         required="true"
-                        class="shadow appearance-none border rounded w-full p-3 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
+                        class="shadow appearance-none border rounded w-full p-1 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
                         type="select" 
                         name="going" 
                         placeholder="Going?"
@@ -181,7 +181,7 @@ return (
                     <option value="Yes">Yes</option>
                     <option value="No">No</option>
                     <option value="Maybe">Maybe</option>
-                    </Input>
+                    </select>
                 </div>
                  
                 </FormGroup>
