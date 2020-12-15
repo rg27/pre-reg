@@ -24,7 +24,7 @@ const Main = () => {
  
 const handleSubmit = async (e) => {
   e.preventDefault();
-  alert("Successfully submitted👍");
+  alert("Take a peak of what is in store");
   window.location.href = "https://docs.google.com/presentation/d/e/2PACX-1vRSBqZufCvjy0y12YtBjSQjUbIhtlXY2I_dES0mdnR2iitGKQYMA00Q3S6nD-WcCiUAkVdFZ6lNh3Dg/pub?start=true&loop=true&delayms=10000&slide=id.p";
 
   
