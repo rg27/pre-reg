@@ -2,13 +2,9 @@ import React, { useState } from "react";
 import macbook from '../images/yee.png'
 
 import {
-  Card,
-  CardBody,
   Button, 
   Form, 
-  FormGroup, 
-  Label, 
-  Input,
+  FormGroup
 } from 'reactstrap';
 
 const Main = () => {
@@ -29,6 +25,8 @@ const Main = () => {
 const handleSubmit = async (e) => {
   e.preventDefault();
   alert("Successfully submitted👍");
+  window.location.href = "https://docs.google.com/presentation/d/e/2PACX-1vRSBqZufCvjy0y12YtBjSQjUbIhtlXY2I_dES0mdnR2iitGKQYMA00Q3S6nD-WcCiUAkVdFZ6lNh3Dg/pub?start=true&loop=true&delayms=10000&slide=id.p";
+
   
   try{
     const response = await fetch(
@@ -51,7 +49,6 @@ const handleSubmit = async (e) => {
 }
 
 return (
-
     <div class="container pt-0 md:pt-0 mx-auto flex flex-wrap flex-col md:flex-row items-center grid grid-cols-3 gap-4">
         <Form class="bg-gray-900  w-full shadow-lg rounded-lg px-10 pt-2 pb-2 mb-0" onSubmit={handleSubmit}>
             <div class="mb-0">
