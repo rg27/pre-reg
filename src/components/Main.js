@@ -51,7 +51,7 @@ const handleSubmit = async (e) => {
 
 return (
 
-    <div class="container pt-0 md:pt-2 mx-auto flex flex-wrap flex-col md:flex-row items-center grid grid-cols-3 gap-4">
+    <div class="container pt-0 md:pt-0 mx-auto flex flex-wrap flex-col md:flex-row items-center grid grid-cols-3 gap-4">
         <Form class="bg-gray-900  w-full shadow-lg rounded-lg px-10 pt-2 pb-2 mb-0" onSubmit={handleSubmit}>
             <div class="mb-0">
                 <label class="block text-blue-300 py-1 font-bold mb-0" for="name">
@@ -193,7 +193,7 @@ return (
    
         <div class="w-full xl:w-5/5 p-1 col-span-2">
           <img 
-          class="mx-auto  md:w-5/5 transform -rotate-2 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6 h-80"  
+          class="mx-auto  md:w-4/5 transform -rotate-2 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6 h-80"  
           src={macbook} 
           />
         </div>
