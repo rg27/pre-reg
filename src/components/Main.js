@@ -28,6 +28,7 @@ const Main = () => {
  
 const handleSubmit = async (e) => {
   e.preventDefault();
+  alert("Successfully submitted👍");
   
   try{
     const response = await fetch(
