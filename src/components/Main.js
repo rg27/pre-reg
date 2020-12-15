@@ -79,7 +79,7 @@ return (
                     <input 
                         required="true"
                         class="shadow appearance-none border rounded w-full p-1 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
-                        type="text" 
+                        type="email" 
                         name="emailaddress" 
                         placeholder="Company Email"
                         value={emailaddress}
