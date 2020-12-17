@@ -2,17 +2,17 @@ import React from 'react'
 import Header from './components/Header'
 import Main from './components/Main'
 import Particles from 'react-particles-js';
-import xmas1 from './images/xmas1.png'
-import xmas2 from './images/xmas2.png'
-import xmas3 from './images/xmas3.png'
-import xmas5 from './images/xmas5.png'
-import xmas6 from './images/xmas6.png'
+// import xmas1 from './images/xmas1.png'
+// import xmas2 from './images/xmas2.png'
+// import xmas3 from './images/xmas3.png'
+// import xmas5 from './images/xmas5.png'
+// import xmas6 from './images/xmas6.png'
 
 function App() {
   return (
     <body class="leading-normal tracking-normal text-indigo-400 m-6 bg-cover bg-fixed" className="backImage">
       <div class="h-full">
-        
+{/*         
 <Particles
  style={{ position: "absolute" }}
  height="95%"
@@ -81,7 +81,7 @@ function App() {
 	        }
 	    },
 	    "retina_detect": false
-	}} />
+	}} /> */}
           <Header/>
           <Main/>
       </div>
