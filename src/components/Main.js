@@ -199,10 +199,11 @@ return (
             <Button className="feedbutton">Submit</Button>
         </div>
       </Form>
+    
    
-        <div class="w-full xl:w-5/5 p-1 col-span-2">
+        <div class="w-full h-full  p-0 col-span-2">
           <img 
-          class="mx-auto  md:w-4/5 transform -rotate-2 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6 h-80"  
+          class="mx-auto  md:w-4/5 md:h-5/6 opacity-100 transform -rotate-2 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6 "  
           src={macbook} 
           />
         </div>
