@@ -49,8 +49,8 @@ const handleSubmit = async (e) => {
 }
 
 return (
-    <div class="container pt-0 md:pt-0 mx-auto flex flex-wrap flex-col md:flex-row items-center grid grid-cols-3 gap-4">
-        <Form class="bg-gray-900  w-full shadow-lg rounded-lg px-10 pt-2 pb-2 mb-0" onSubmit={handleSubmit}>
+    <div class="container  pt-0 md:pt-0 mx-auto flex flex-wrap flex-col md:flex-row items-center grid grid-cols-3 gap-4">
+        <Form class="bg-gray-900  w-full shadow-lg rounded-lg px-120 pt-0 pb-0 mb-0" onSubmit={handleSubmit}>
             <div class="mb-0">
                 <label class="block text-blue-300 py-1 font-bold mb-0" for="name">
                     Name 
@@ -195,7 +195,7 @@ return (
                  
                 </FormGroup>
             </div>
-            <div class="flex items-center justify-between pt-4">
+            <div class="flex items-center justify-between pt-0">
             <Button className="feedbutton">Submit</Button>
         </div>
       </Form>
@@ -203,7 +203,7 @@ return (
    
         <div class="w-full h-full  p-0 col-span-2">
           <img 
-          class="mx-auto  md:w-4/5 md:h-5/6 opacity-100 transform -rotate-2 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6 "  
+          class="mx-auto  md:w-4/5 md:h-5/6  transform -rotate-2 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6 "  
           src={macbook} 
           />
         </div>
