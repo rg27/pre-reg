@@ -163,6 +163,7 @@ return (
                       <option value="BXO">BXO</option>
                       <option value="STAR">STAR</option>
                       <option value="WIL">WIL</option>
+                      <option value="PIPE">PIPE</option>
                       <option value="Others">Others</option>
                     </select>
                 </div>
