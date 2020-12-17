@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import macbook from '../images/yee.png'
+import macbook from '../images/yee.jpg'
 
 import {
   Button, 
